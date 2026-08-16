@@ -1,0 +1,10 @@
+date,amount,category,description,payment_method
+2026-08-15,500.0,gadget,Laptop purchase,visa
+2026-08-15,12.5,food,Test expense from AI,visa
+2026-08-15,200.0,gadget,mobile purchase,amex
+2026-08-15,5.0,transport,bus ticket purchase,cash
+2026-08-15,2.0,transport,train ticket purchase,cash
+2026-08-16,2.0,transport,airplane ticket purchase,cash
+2026-08-16,20.0,transport,cab ticket purchase,cash
+2026-08-16,20.0,transport,cab ticket purchase,cash
+2026-08-30,200.0,gadget,TV purchase,visa
