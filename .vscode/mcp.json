@@ -26,6 +26,10 @@
 			"url": "http://0.0.0.0:8001/mcp",
 			"type": "http"
 		},
+		"expenses-tracker-inmemory-mcp": {
+			"url": "http://0.0.0.0:8003/mcp",
+			"type": "http"
+		},
 		"expenses-mcp-debug": {
 			"type": "stdio",
 			"command": "uv",
