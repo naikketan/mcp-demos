@@ -13,7 +13,7 @@
 			"type": "http",
 			"url": "http://127.0.0.1:8000/mcp"
 		},
-		"expenses-mcp": {
+		"advanced-stdio-mcp": {
 			"type": "stdio",
 			"command": "uv",
 			"cwd": "${workspaceFolder}",
@@ -22,7 +22,7 @@
 				"servers/advanced-stdio-server.py"
 			]
 		},
-		"expenses-tracker-http-server": {
+		"advanced-http-mcp": {
 			"url": "http://0.0.0.0:8001/mcp",
 			"type": "http"
 		},
@@ -44,6 +44,10 @@
 				"0.0.0.0:5678",
 				"servers/advanced-stdio-server.py"
 			]
+		},
+		"sampling-demo-server": {
+			"url": "http://0.0.0.0:8004/mcp",
+			"type": "http"
 		},
 	},
 	"inputs": []

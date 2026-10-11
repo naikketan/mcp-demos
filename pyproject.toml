@@ -9,3 +9,13 @@ dependencies = [
     "debugpy>=1.8.21",
     "fastmcp>=3.4.5",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
