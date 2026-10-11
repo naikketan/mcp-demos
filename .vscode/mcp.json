@@ -45,10 +45,30 @@
 				"servers/advanced-stdio-server.py"
 			]
 		},
+		"Elicitation-server": {
+			"type": "stdio",
+			"command": "uv",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"run",
+				"servers/Elicitation/elicitation-stdio-server.py"
+			]
+		},
 		"sampling-demo-server": {
 			"url": "http://0.0.0.0:8004/mcp",
 			"type": "http"
 		},
+		"travily-mcp": {
+			"url": "https://mcp.tavily.com/mcp/?tavilyApiKey=${input:tavily-api-key}",
+			"type": "http"
+		}
 	},
-	"inputs": []
+	"inputs": [
+		{
+			"type": "promptString",
+			"id": "tavily-api-key",
+			"description": "Tavily API key",
+			"password": true
+		}
+	]
 }
